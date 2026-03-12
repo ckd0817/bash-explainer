@@ -1,6 +1,6 @@
 ---
 name: bash-explainer
-description: Use this skill to explain bash/shell commands and help users learn the command line. Trigger this skill whenever: (1) after executing any bash command, provide a brief explanation of what the command does and what each part means; (2) when users ask about command meanings like "what does this command do", "explain this command", or "what is ls -la"; (3) when users want to learn shell commands or improve their CLI skills. Always explain commands even if they seem simple — this helps users build knowledge. Use Chinese for explanations.
+description: Use this skill to explain bash/shell commands and help users learn the command line. Trigger this skill whenever: (1) after executing any bash command, provide a brief explanation of what the command does and what each part means; (2) when users ask about command meanings like "what does this command do", "explain this command", or "what is ls -la"; (3) when users want to learn shell commands or improve their CLI skills. Always explain commands even if they seem simple — this helps users build knowledge. 
 license: MIT
 ---
 
@@ -222,18 +222,6 @@ license: MIT
 
 💡 文件描述符：0=标准输入, 1=标准输出, 2=标准错误
 ```
-
-## 参考文件
-
-解释命令时参考以下文件获取详细信息：
-
-- `references/commands.md` - 常用命令详解和选项说明
-- `references/operators.md` - 操作符和特殊符号参考
-- `references/wildcards.md` - 通配符和模式匹配
-- `references/paths.md` - 路径和目录符号
-- `references/common-patterns.md` - 常见命令模式和组合
-
-当遇到不熟悉的命令或需要更详细信息时，查阅这些参考文件。
 
 ## 注意事项
 
