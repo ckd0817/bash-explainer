@@ -1,14 +1,6 @@
 ---
 name: bash-explainer
-description: |
-  解释 bash/shell 命令的每个部分，帮助用户理解命令行操作，提升 shell 技能。
-
-  触发场景：
-  - 每次执行 bash 命令后，自动提供简要解释
-  - 用户询问命令含义（"这个命令是什么意思"、"解释一下这个命令"）
-  - 用户想学习命令行知识时
-
-  即使命令很简单，也应该提供解释，帮助用户积累命令行知识。
+description: Use this skill to explain bash/shell commands and help users learn the command line. Trigger this skill whenever: (1) after executing any bash command, provide a brief explanation of what the command does and what each part means; (2) when users ask about command meanings like "what does this command do", "explain this command", or "what is ls -la"; (3) when users want to learn shell commands or improve their CLI skills. Always explain commands even if they seem simple — this helps users build knowledge. Use Chinese for explanations.
 license: MIT
 ---
 
