@@ -46,25 +46,9 @@ cp -r bash-explainer ~/.claude/skills/
 
 ```
 bash-explainer/
-├── SKILL.md                    # Skill 主配置文件
-├── README.md                   # 本文件
-└── references/
-    ├── commands.md             # 常用命令详解
-    ├── operators.md            # 操作符和特殊符号参考
-    ├── wildcards.md            # 通配符和模式匹配
-    ├── paths.md                # 路径和目录符号
-    └── common-patterns.md      # 常见命令模式和组合
+├── SKILL.md                    # Skill 主配置文件，包含行为说明和示例
+└── README.md                   # 本文件
 ```
-
-## 参考文档
-
-| 文件 | 内容 |
-|------|------|
-| `commands.md` | 常用命令详解，包括文件操作、文本处理、系统信息、进程管理等 |
-| `operators.md` | 管道、重定向、条件执行等操作符说明 |
-| `wildcards.md` | `*`、`?`、`[...]` 等通配符的使用方法 |
-| `paths.md` | `~`、`.`、`..`、`$HOME` 等路径符号说明 |
-| `common-patterns.md` | 常见的命令组合和实用技巧 |
 
 ## 示例
 
