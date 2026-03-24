@@ -1,6 +1,6 @@
 ---
 name: bash-explainer
-description: Use this skill to explain bash/shell commands and help users learn the command line. Trigger this skill whenever: (1) after executing any bash command, provide a brief explanation of what the command does and what each part means; (2) when users ask about command meanings like "what does this command do", "explain this command", or "what is ls -la"; (3) when users want to learn shell commands or improve their CLI skills. Always explain commands even if they seem simple — this helps users build knowledge. 
+description: TRIGGER when: (1) after any Bash tool execution completes, (2) user asks "what does this command do" or "explain this command", (3) user asks about the meaning of a specific shell command. DO NOT TRIGGER when: no bash command was executed or user is not asking about shell commands. 
 license: MIT
 ---
 
