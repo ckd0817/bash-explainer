@@ -1,6 +1,6 @@
 ---
 name: bash-explainer
-description: TRIGGER when: (1) after any Bash tool execution completes, (2) user asks "what does this command do" or "explain this command", (3) user asks about the meaning of a specific shell command. DO NOT TRIGGER when: no bash command was executed or user is not asking about shell commands. 
+description: "TRIGGER when: (1) after any Bash tool execution completes, (2) user asks "what does this command do" or "explain this command", (3) user asks about the meaning of a specific shell command. DO NOT TRIGGER when: no bash command was executed or user is not asking about shell commands."
 license: MIT
 ---
 
